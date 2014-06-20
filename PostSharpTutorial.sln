@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get Started", "PS1\Get Started.csproj", "{436BED14-ACEC-42BF-B3CE-B248B3807F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChanged", "INotifyPropertyChanged\INotifyPropertyChanged.csproj", "{012C2861-8537-4BA3-B0D3-9FAB0EAC97DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDetailed Tracing", "AddLogging\AddDetailed Tracing.csproj", "{62E5016E-2C61-45F9-8E5A-D2CF9531BF3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436BED14-ACEC-42BF-B3CE-B248B3807F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436BED14-ACEC-42BF-B3CE-B248B3807F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436BED14-ACEC-42BF-B3CE-B248B3807F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436BED14-ACEC-42BF-B3CE-B248B3807F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012C2861-8537-4BA3-B0D3-9FAB0EAC97DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012C2861-8537-4BA3-B0D3-9FAB0EAC97DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012C2861-8537-4BA3-B0D3-9FAB0EAC97DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012C2861-8537-4BA3-B0D3-9FAB0EAC97DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E5016E-2C61-45F9-8E5A-D2CF9531BF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E5016E-2C61-45F9-8E5A-D2CF9531BF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E5016E-2C61-45F9-8E5A-D2CF9531BF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E5016E-2C61-45F9-8E5A-D2CF9531BF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

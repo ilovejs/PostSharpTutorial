@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;FirstName&gt;k__BackingField" Target="#2=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;FirstName&gt;k__OriginalField" />
+  <Evolution Source="#2" Target="#3=P:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::{FirstName}k__BackingField()" />
+  <Evolution Source="#4=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;LastName&gt;k__BackingField" Target="#5=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;LastName&gt;k__OriginalField" />
+  <Evolution Source="#5" Target="#6=P:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::{LastName}k__BackingField()" />
+  <Evolution Source="#7=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Phone&gt;k__BackingField" Target="#8=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Phone&gt;k__OriginalField" />
+  <Evolution Source="#8" Target="#9=P:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::{Phone}k__BackingField()" />
+  <Evolution Source="#10=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Mobile&gt;k__BackingField" Target="#11=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Mobile&gt;k__OriginalField" />
+  <Evolution Source="#11" Target="#12=P:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::{Mobile}k__BackingField()" />
+  <Evolution Source="#13=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Email&gt;k__BackingField" Target="#14=F:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::&lt;Email&gt;k__OriginalField" />
+  <Evolution Source="#14" Target="#15=P:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::{Email}k__BackingField()" />
+  <Class Class="#16=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.NotifyPropertyChangedAttribute">
+    <Instance Declaration="#17=T:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing" Id="b5a63d80078daf66">
+      <Target>
+        <JoinPoint Advising="#16" Description="#18=Introduce event PropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#19=Introduce method remove_PropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#20=Introduce method add_PropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#21=Introduce event ChildPropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#22=Introduce method add_ChildPropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#23=Introduce method remove_ChildPropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#24=Introduce method OnPropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#25=Introduce method OnChildPropertyChanged" Ordinal="0" />
+        <JoinPoint Advising="#16" Description="#26=Introduce interface(s) INotifyChildPropertyChanged, INotifyPropertyChanged" Ordinal="0" />
+        <JoinPoint Advised="#27=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_FirstName()" Advising="#16" Description="#28=Intercepted by advice OnPropertyGet" Semantic="Getter" />
+        <JoinPoint Advised="#27" Advising="#16" Description="#29=Wrapped by advice(s) OnMethodEntry, OnMethodExit" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#30=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::set_FirstName(System.String)" Advising="#16" Description="#29" Semantic="Setter" Ordinal="2" />
+        <JoinPoint Advised="#31=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_LastName()" Advising="#16" Description="#28" Semantic="Getter" />
+        <JoinPoint Advised="#31" Advising="#16" Description="#29" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#32=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::set_LastName(System.String)" Advising="#16" Description="#29" Semantic="Setter" Ordinal="2" />
+        <JoinPoint Advised="#33=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_FullName()" Advising="#16" Description="#28" Semantic="Getter" />
+        <JoinPoint Advised="#33" Advising="#16" Description="#29" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#34=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_Phone()" Advising="#16" Description="#28" Semantic="Getter" />
+        <JoinPoint Advised="#34" Advising="#16" Description="#29" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#35=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::set_Phone(System.String)" Advising="#16" Description="#29" Semantic="Setter" Ordinal="2" />
+        <JoinPoint Advised="#36=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::set_Mobile(System.String)" Advising="#16" Description="#29" Semantic="Setter" Ordinal="2" />
+        <JoinPoint Advised="#37=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_Mobile()" Advising="#16" Description="#28" Semantic="Getter" />
+        <JoinPoint Advised="#37" Advising="#16" Description="#29" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#38=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::get_Email()" Advising="#16" Description="#28" Semantic="Getter" />
+        <JoinPoint Advised="#38" Advising="#16" Description="#29" Semantic="Getter" Ordinal="2" />
+        <JoinPoint Advised="#39=M:[INotifyPropertyChanged]INotifyPropertyChanged.CustomerForEditing::set_Email(System.String)" Advising="#16" Description="#29" Semantic="Setter" Ordinal="2" />
+        <JoinPoint Advised="#2" Advising="#16" Description="#40=Intercepted by advice OnFieldSet" Semantic="Setter" />
+        <JoinPoint Advised="#5" Advising="#16" Description="#40" Semantic="Setter" />
+        <JoinPoint Advised="#8" Advising="#16" Description="#40" Semantic="Setter" />
+        <JoinPoint Advised="#11" Advising="#16" Description="#40" Semantic="Setter" />
+        <JoinPoint Advised="#14" Advising="#16" Description="#40" Semantic="Setter" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

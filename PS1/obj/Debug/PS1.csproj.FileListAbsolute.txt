@@ -1,0 +1,10 @@
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PS1.exe.config
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PS1.exe
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PS1.pdb
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PostSharp.dll
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PostSharp.xml
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\bin\Debug\PS1.pssym
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\obj\Debug\PS1.csprojResolveAssemblyReference.cache
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\obj\Debug\PS1.exe
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\obj\Debug\PS1.pdb
+D:\CODE\For Applicants v2.3\PostSharp1\PS1\obj\Debug\PS1.exe.postsharp

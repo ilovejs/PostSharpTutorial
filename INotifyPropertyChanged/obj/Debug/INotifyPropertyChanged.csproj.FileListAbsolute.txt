@@ -1,0 +1,11 @@
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\INotifyPropertyChanged.exe.config
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\INotifyPropertyChanged.exe
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\INotifyPropertyChanged.pdb
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\PostSharp.dll
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\PostSharp.Patterns.Model.dll
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\PostSharp.xml
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\bin\Debug\INotifyPropertyChanged.pssym
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\obj\Debug\INotifyPropertyChanged.csprojResolveAssemblyReference.cache
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\obj\Debug\INotifyPropertyChanged.exe
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\obj\Debug\INotifyPropertyChanged.pdb
+D:\CODE\For Applicants v2.3\PostSharp1\INotifyPropertyChanged\obj\Debug\INotifyPropertyChanged.exe.postsharp

@@ -1,0 +1,1 @@
+D:\CODE\For Applicants v2.3\PostSharp1\Thread-unsafe object\bin\Debug\Thread-unsafe object.exe.config

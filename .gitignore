@@ -1,0 +1,5 @@
+AddLogging/bin/
+AddLogging/obj/
+*.dll
+*.pdb
+*.exe
